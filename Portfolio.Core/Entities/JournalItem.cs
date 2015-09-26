@@ -5,14 +5,12 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Entities
 {
-    public class ProtfolioItem
+    public class JournalItem
     {
         public int ID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public string ProjcetUrl { get; set; }
-        public string Image { get; set; }
-
-        public virtual ICollection<Tag> Tags { get; set; }
+        public string ImageUrl { get; set; }
+        public string ItemUrl { get; set; }
     }
 }

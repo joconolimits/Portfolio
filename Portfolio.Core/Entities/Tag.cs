@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Entities
 {
-    public class Skill
+    public class Tag
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public int Percentage { get; set; }
+
+        public virtual ICollection<PortfolioItem> PortfolioItems { get; set; }
     }
 }
