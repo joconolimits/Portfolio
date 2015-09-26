@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Entities
 {
-    public class ProtfolioItem
+    public class PortfolioItem
     {
         public int ID { get; set; }
         public string Title { get; set; }
